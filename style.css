@@ -90,3 +90,15 @@
 .photo{
     padding: 10px
 }
+#contact{
+    background: url(img/contactMe.png);
+    width: auto;
+    height: 800px;
+    text-align: center;
+}
+#contact h3 {
+    color: #ffffff;
+}
+#contact p{
+    color: #adadad;
+}

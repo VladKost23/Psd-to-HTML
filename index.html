@@ -57,25 +57,29 @@
                         <img class="photo" src="img/img6.png" alt="">
                 </div>
             </div>
-            <div class="contact">
+            <div id="contact">
                 <div class="contact-info">
                     <h3>Stay with us</h3>
                     <p>We ensure quailty & support</p>
                 </div>
                 <form class="forms">
                     <div >
-                        <input type="text" name="name" maxlength="20" placeholder="Full name">
+                        <input class="form-control" type="text" name="name" maxlength="20" placeholder="Full name">
                     </div>
                     <div>
-                        <input type="e-mail" name="e-mail" maxlength="20" placeholder="Email Adress">
+                        <input class="form-control" type="e-mail" name="e-mail" maxlength="20" placeholder="Email Adress">
+                    </div>
+                    <div>
+                        <textarea class="form-control" type="message" name="message" placeholder="Message"></textarea>
                     </div>
                     <div>
                         <input type="checkbox"  name="check" id="check">
-                        <label class="form-check-label" for="check">Subscribe Newsletter</label>
-                    </div>
-                    <div>
+                        <label class="form-check-label" for="check" style="color:#ffffff;">Subscribe Newsletter</label>
                         <button class="btn btn-primary" type="submit" form="application">Send</button>
                     </div>
+                    <!-- <div>
+                        <button class="btn btn-primary" type="submit" form="application">Send</button>
+                    </div> -->
                 </form>
             </div>
         </main>
