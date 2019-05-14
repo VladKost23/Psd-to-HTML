@@ -72,3 +72,21 @@
     color: #adadad;
     padding:0 50px 60px 80px;
 }
+.portfolio{
+    background: #f6f9f9;
+}
+.portfolio-info{
+    text-align: center;
+    color: #2d3950;
+    font-size: 40px;
+}
+.portfolio-info p{
+    color: #adadad;
+    font-size: 15px;
+}
+.portfolio-img{
+    padding: 50px 0 50px 110px;
+}
+.photo{
+    padding: 10px
+}
