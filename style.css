@@ -140,5 +140,7 @@
     justify-content: space-around;
     padding: 20px
 }
-
+.photo:hover{
+    background: #000;
+}
 
