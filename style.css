@@ -91,14 +91,54 @@
     padding: 10px
 }
 #contact{
-    background: url(img/contactMe.png);
     width: auto;
-    height: 800px;
+    height: 400px;
     text-align: center;
-}
-#contact h3 {
+    padding: 50px 100px 50px 100px;
     color: #ffffff;
 }
-#contact p{
-    color: #adadad;
+.contact-info{
+    padding: 10px;
 }
+.forms input,textarea{
+    text-align: end;
+    background-color: transparent;
+}
+.forms textarea{
+    background-color: transparent;
+}
+.forms{
+    padding: 10px 10px;
+}
+.click{
+    padding: 20px
+}
+.gradient {
+    background-color: rgba(2, 143, 179, 1);
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSIwJSIgY3k9IjAlIiByPSIxNDEuNDIxMzU2MjM3MzA5NSUiPjxzdG9wIHN0b3AtY29sb3I9IiMwMGM0ZjQiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjM1NjAwMDAwMDAwMDAwMDA0Ii8+PHN0b3Agc3RvcC1jb2xvcj0iIzAzNjA3OCIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuNTg5Ii8+PC9yYWRpYWxHcmFkaWVudD48cmVjdCB4PSItNTAiIHk9Ii01MCIgd2lkdGg9IjEwMSIgaGVpZ2h0PSIxMDEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+    /* Android 2.3- hack (needed for the actual radial gradient) */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSIwJSIgY3k9IjAlIiByPSIxNDEuNDIxMzU2MjM3MzA5NSUiPjxzdG9wIHN0b3AtY29sb3I9IiMwMGM0ZjQiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjM1NjAwMDAwMDAwMDAwMDA0Ii8+PHN0b3Agc3RvcC1jb2xvcj0iIzAzNjA3OCIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuNTg5Ii8+PC9yYWRpYWxHcmFkaWVudD48cmVjdCB4PSItNTAiIHk9Ii01MCIgd2lkdGg9IjEwMSIgaGVpZ2h0PSIxMDEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+),
+        -webkit-gradient(radial, left top, 0, left top, 723,color-stop(0.356, rgb(0, 196, 244)),color-stop(0.589, rgb(3, 96, 120)));
+    /* Android 2.3 */
+    background-image: -webkit-radial-gradient(left top, ellipse farthest-corner,rgb(0, 196, 244) 35.6%,rgb(3, 96, 120) 58.9%);
+    /* IE10+ */
+    background-image: radial-gradient(ellipse farthest-corner at left top,rgb(0, 196, 244) 35.6%,rgb(3, 96, 120) 58.9%);
+    background-image: -ms-radial-gradient(left top, ellipse farthest-corner,rgb(0, 196, 244) 35.6%,rgb(3, 96, 120) 58.9%);
+}
+ 
+/* IE8- CSS hack */
+@media \0screen\,screen\9 {
+    .gradient {
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff00c4f4",endColorstr="#ff036078",GradientType=0);
+    }
+}
+.foot{
+    display: flex;
+    color: #000;
+    font-size: 15px;
+    justify-content: space-around;
+    padding: 20px
+}
+
+
